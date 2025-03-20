@@ -1,0 +1,19 @@
+{
+  "name": "com.abdulal.shelltexturing",
+  "author": "Abdulrahmen Almodaimegh",
+  "displayName": "Shell Texturing",
+  "description": "Tool for generating shell meshes given an arbitrary input mesh using compute shaders. With basic shell texturing shader included.",
+  "unity": "6.0.0",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "samples": [
+    {
+      "displayName": "Shell Texturing",
+      "description": "A collection of prefabs and materials using the shell texturing tool.",
+      "path": "Samples~/ShellTexturing"
+    }
+  ]
+}
