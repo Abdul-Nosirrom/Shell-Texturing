@@ -13,7 +13,7 @@
     {
       "displayName": "Shell Texturing",
       "description": "A collection of prefabs and materials using the shell texturing tool.",
-      "path": "Samples~/ShellTexturing"
+      "path": "Samples~/Examples"
     }
   ]
 }

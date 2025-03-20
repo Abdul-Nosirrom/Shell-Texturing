@@ -109,7 +109,7 @@ namespace Abdulal.ShellTexturing
             // Add a check for mesh size limits
             if (m_sourceMesh.vertexCount * m_numShells > UInt16.MaxValue && !m_sourceMesh.indexFormat.Equals(IndexFormat.UInt32))
             {
-                Debug.LogWarning("Shell mesh will exceed 16-bit index limit. Setting 32-bit indices.");
+                Debug.LogWarning("[ShellTexturing] Shell mesh will exceed 16-bit index limit. Setting 32-bit indices.");
                 m_shellMesh.indexFormat = IndexFormat.UInt32;
             }
             
@@ -130,9 +130,6 @@ namespace Abdulal.ShellTexturing
             m_shellMesh.SetUVs(0, uvs);
             m_shellMesh.SetNormals(normals);
             m_shellMesh.SetColors(colors);
-            
-            Debug.Log($"Original Mesh Vertex Count = {m_sourceMesh.vertexCount}");
-            Debug.Log($"New Mesh Vertex Count = {m_shellMesh.vertexCount}");
             
             GetComponent<MeshFilter>().sharedMesh = m_shellMesh;
             

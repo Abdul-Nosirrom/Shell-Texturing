@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_shellTextureSample
+  m_Name: m_shellFur
   m_Shader: {fileID: 4800000, guid: dd33a5240fbb73e468201957dd14484a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -117,7 +117,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FresnelFactor: 3.42
+    - _FresnelFactor: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -142,7 +142,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelGlow: {r: 2.2706032, g: 2.2706032, b: 2.2706032, a: 0}
+    - _FresnelGlow: {r: 0, g: 0, b: 0, a: 0}
     - _GridDimensions: {r: 128, g: 128, b: 0, a: 0}
     - _ScrollVelocity: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
